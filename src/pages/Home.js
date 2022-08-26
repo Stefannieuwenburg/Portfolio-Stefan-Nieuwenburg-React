@@ -2,16 +2,17 @@ import React, { Fragment } from "react";
 import styled from "styled-components";
 
 const ContainerHome = styled.div`
-    min-height: 100vh;
-    padding-top: 6rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
 `;
 
 const Button = styled.button`
     font-family: "Roboto", sans-serif;
     text-transform: bold;
-    margin: 1.2rem;
+    margin: 2.3rem;
     padding: 0.5rem 1rem;
     background-color: var(--main-color);
     color: black;
@@ -24,7 +25,7 @@ const Button = styled.button`
     &:hover {
         letter-spacing: 0.2rem;
         color: #000000;
-        transition: 0.3s;
+        transition: 0.3s; 
     }
 `;
 const MainParagraph = styled.div`
@@ -32,8 +33,8 @@ const MainParagraph = styled.div`
     color: #ffffff;
 `;
 const ParagraphStyled = styled.div`
+    margin-top: 2rem;
     font-size: 1.8rem;
-    padding-top: 1rem;
     color: var(--main-color);
     &:hover {
         letter-spacing: 0.2rem;
@@ -41,8 +42,8 @@ const ParagraphStyled = styled.div`
     }
 `;
 const ParagraphHeader = styled.div`
+    margin-top: 10rem;
     font-size: 3.8rem;
-    padding-top: 1rem;
     color: var(--main-color);
     &:hover {
         letter-spacing: 0.2rem;

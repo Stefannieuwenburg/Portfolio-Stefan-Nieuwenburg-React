@@ -3,14 +3,12 @@ import { FaDatabase, FaReact, FaTools } from "react-icons/fa";
 import styled from "styled-components";
 
 const ContainerTechnologies = styled.div`
-    min-height: 100vh;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    height: 100vh;
 `;
 const SectionHeader = styled.div`
     position: relative;
     margin-bottom:2rem;
-    margin-left: 6rem;
+    margin-left: 3rem;
     max-width: 700px;
     font-size: 25px;
 `;
@@ -33,6 +31,7 @@ const WrapperDescription = styled.div`
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-left: 2rem;
     font-size: 20px;
     color: var(--main-color);
     li {

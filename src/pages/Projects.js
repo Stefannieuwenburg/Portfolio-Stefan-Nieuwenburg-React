@@ -11,8 +11,6 @@ import image5 from "../assets/pictures/movie.png";
 const ContainerProject = styled.div`
     padding-top: 3rem;
     min-height: 100vh;
-    margin-left: 2rem;
-    margin-right: 2rem;
     background: linear-gradient(90deg, #000000, #3f3e3f);
 `;
 const Paragraph = styled.div`
@@ -55,9 +53,9 @@ const ProjectBox = styled.div`
     border-radius: 20px;
     color: white;
     img {
-        margin-right: 0.5rem;
-        padding: 0.8rem;
-        border-radius: 1.5rem;
+        
+        padding: 2rem;
+        border-radius: 3rem;
     }
 `;
 
