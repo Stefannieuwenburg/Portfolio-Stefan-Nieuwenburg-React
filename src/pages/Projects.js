@@ -55,7 +55,8 @@ const ProjectBox = styled.div`
     border-radius: 20px;
     color: white;
     img {
-        padding: 0.6rem;
+        margin-right: 0.5rem;
+        padding: 0.8rem;
         border-radius: 1.5rem;
     }
 `;
