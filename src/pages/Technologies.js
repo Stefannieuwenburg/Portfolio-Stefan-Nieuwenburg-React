@@ -23,10 +23,10 @@ const MainParagraph = styled.h1`
         transition: 0.6s;
     }
 `;
-const Paragraph = styled.p`
+const Paragraph = styled.div`
     font-size: 1.5rem;
     margin-top: 1.2rem;
-    color: var(--white-color);
+    color: #ffffff;
 `;
 const WrapperDescription = styled.div`
     display: flex;
@@ -36,13 +36,13 @@ const WrapperDescription = styled.div`
     font-size: 20px;
     color: var(--main-color);
     li {
-        color: var(--white-color);
+        color: #ffffff;
     }
 `;
 
 
 
-const ParagraphStyled = styled.p`
+const ParagraphStyled = styled.div`
     font-size: 1.8rem;
     padding-top: 1rem;
     color: var(--main-color);

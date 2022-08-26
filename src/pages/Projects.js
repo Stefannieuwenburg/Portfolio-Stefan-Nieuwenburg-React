@@ -15,10 +15,10 @@ const ContainerProject = styled.div`
     margin-right: 2rem;
     background: linear-gradient(90deg, #000000, #3f3e3f);
 `;
-const Paragraph = styled.p`
+const Paragraph = styled.div`
     font-size: 1rem;
     margin-top: 0.2rem;
-    color: var(--white-color);
+    color: #ffffff;
 `;
 
 const Button = styled.button`
@@ -49,7 +49,7 @@ const ProjectWrapper = styled.div`
 
 const ProjectBox = styled.div`
     margin: 1.2rem;
-    background: var(--black-color);
+    background: #000000;
     text-align: center;
     border: 3px solid var(--main-color);
     border-radius: 20px;

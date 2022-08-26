@@ -23,15 +23,15 @@ const Button = styled.button`
     transition: 0.3s;
     &:hover {
         letter-spacing: 0.2rem;
-        color: black;
+        color: #000000;
         transition: 0.3s;
     }
 `;
-const MainParagraph = styled.h4`
+const MainParagraph = styled.div`
     font-size: 3rem;
-    color: var(--white-color);
+    color: #ffffff;
 `;
-const ParagraphStyled = styled.p`
+const ParagraphStyled = styled.div`
     font-size: 1.8rem;
     padding-top: 1rem;
     color: var(--main-color);
@@ -40,7 +40,7 @@ const ParagraphStyled = styled.p`
         transition: 0.6s;
     }
 `;
-const ParagraphHeader = styled.h2`
+const ParagraphHeader = styled.div`
     font-size: 3.8rem;
     padding-top: 1rem;
     color: var(--main-color);
