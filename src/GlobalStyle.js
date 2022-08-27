@@ -62,9 +62,12 @@ body {
     font-family: var(--Main-font)
 }
 img {
-  width:100%;
+  width:90%;
   height:auto;
   object-fit: cover;
+}
+a{
+    text-decoration: none;
 }
 `;
 

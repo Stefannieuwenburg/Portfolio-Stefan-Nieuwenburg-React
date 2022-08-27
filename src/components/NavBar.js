@@ -2,7 +2,7 @@ import React, { Fragment, useState } from "react";
 import styled from "styled-components";
 
 import { GiHamburgerMenu } from "react-icons/gi";
-
+import Rlogo from "../assets/logo/github.svg"
 
 const Nav = styled.div`
     padding:1rem 4rem;
@@ -14,6 +14,25 @@ const Nav = styled.div`
     top: 0;
     left: 0;
     right: 0;
+`;
+const LogoImg = styled.a`
+    display: flex;
+    width: 29px;
+    height: 29px;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+`;
+const LogoText = styled.p`
+    color: var(--White-Color);
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: 0.6s;
+    &:hover {
+        letter-spacing: 0.2rem;
+        transition: 0.6s;
+    }
 `;
 
 const Link = styled.a`
@@ -29,19 +48,6 @@ const Link = styled.a`
         letter-spacing: 0.2rem;
         transition: 0.3s;
         
-    }
-`;
-
-
-const Logo = styled.a`
-    padding: 1rem;
-    color: var(--White-Color);
-    text-decoration: uppercase;
-    font-weight: 800;
-    font-size: 1.5rem;
-    span {
-        font-weight: 300;
-        font-size: 1.3rem;
     }
 `;
 
@@ -82,10 +88,11 @@ const Navbar = () => {
     return (
         <Fragment>
             <Nav>
-                <a href="#Home">
-                    <Logo>Portfolio</Logo>
-                </a>
-                
+                <LogoImg href="https://github.com/Stefannieuwenburg">
+                    <img src={Rlogo} alt="Rlogo" />
+                    <LogoText>portfolio</LogoText>
+                </LogoImg>
+
                 <Hamburger onClick={() => setIsOpen(!isOpen)}>
                     <GiHamburgerMenu
                         style={{ color: "white", fontSize: "30px" }}

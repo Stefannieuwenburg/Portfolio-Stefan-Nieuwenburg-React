@@ -11,9 +11,10 @@ const App = ()=> {
     <Fragment>
         <GlobalStyle />
         <NavBar />
-        <Home />
+      <Home />
+      <Projects />
         <Technologies />
-        <Projects />
+        
       </Fragment>
     );
 }

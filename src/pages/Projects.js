@@ -9,8 +9,7 @@ import image4 from "../assets/pictures/kidsbookshop.png";
 import image5 from "../assets/pictures/movie.png";
 
 const ContainerProject = styled.div`
-    padding: 1rem 4rem;
-    padding-top: 3rem;
+    padding: 4rem;
     min-height: 100vh;
 `;
 const Paragraph = styled.p`
@@ -46,13 +45,13 @@ const ProjectWrapper = styled.div`
 `;
 
 const ProjectBox = styled.div`
-    margin: 1.2rem;
     background: var(--Black-Color);
     text-align: center;
     border: 3px solid var(--Main-Color);
     border-radius: 2rem;
-    color: var--White-Color();
+    color: var(--White-Color);
     img {
+        margin-top:1.2rem;
         border-radius:2rem;
     }
 `;
