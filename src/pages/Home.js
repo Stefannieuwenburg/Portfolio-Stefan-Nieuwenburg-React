@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 const ContainerHome = styled.div`
     height: 100vh;
+    padding: 1rem 4rem;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -14,7 +15,7 @@ const Button = styled.button`
     text-transform: bold;
     margin: 2.3rem;
     padding: 0.5rem 1rem;
-    background-color: var(--main-color);
+    background-color: var(--Main-Color);
     color: black;
     font-size: 0.9rem;
     cursor: pointer;
@@ -24,27 +25,27 @@ const Button = styled.button`
     transition: 0.3s;
     &:hover {
         letter-spacing: 0.2rem;
-        color: #000000;
-        transition: 0.3s; 
+        color: var(--Black-Color);
+        transition: 0.3s;
     }
 `;
-const MainParagraph = styled.div`
+const MainParagraph = styled.p`
     font-size: 3rem;
-    color: #ffffff;
+    color: var(--White-Color);
 `;
-const ParagraphStyled = styled.div`
+const ParagraphStyled = styled.p`
     margin-top: 2rem;
     font-size: 1.8rem;
-    color: var(--main-color);
+    color: var(--Main-Color);
     &:hover {
         letter-spacing: 0.2rem;
         transition: 0.6s;
     }
 `;
-const ParagraphHeader = styled.div`
+const ParagraphHeader = styled.p`
     margin-top: 10rem;
     font-size: 3.8rem;
-    color: var(--main-color);
+    color: var(--Main-Color);
     &:hover {
         letter-spacing: 0.2rem;
         transition: 0.6s;

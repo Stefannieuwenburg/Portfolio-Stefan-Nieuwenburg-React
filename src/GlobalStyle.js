@@ -2,81 +2,26 @@ import styled, { css } from "styled-components";
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
-*,
-*::before,
-*::after, 
-html {
-    @import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;400&display=swap");
-    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    font-family: "Karla", "Segoe UI", "Roboto",'Roboto Mono', monospace,
-    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-    scroll-behavior: smooth;
-
-    --main-color:#d3ad7f;
-    --black-color:#000000;
-    --bg-color:linear-gradient(90deg, #000000, #3f3e3f); 
-    --white-color:#fff;
-    --gray-color: rgba(202, 200, 200, 0.721);
-    --border-color:.1rem solid rgba(255,255,255,.3);
-    --font-family: 'Roboto Mono', monospace;
-    --text-shadow: 1px 1px 1px #333;  
-}
-body {
-    background:linear-gradient(90deg, #000000, #3f3e3f); 
-    font-family: 'Roboto Mono', monospace;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-    cursor: pointer;
-    transition: 0.4s;
-}
-
-
-button{
-    cursor: pointer;
-    color: inherit;
-    font-family: inherit;
-}
-
-ul {
-    list-style: none;
-    color: inherit;
-    margin: 0;
-    padding: 0;
-}
-
 :root{
     /* ---Page Color--- */
-    --main-color:#d3ad7f;
-    --black:#13131a;
-    --bg:linear-gradient(90deg, #000000, #3f3e3f); ;
-    --white:#fff;
-    --gray: rgba(202, 200, 200, 0.721);
-    --border:.1rem solid rgba(255,255,255,.3);
+    --Main-Color:#d3ad7f;
+    --Black-Color:#000000;
+    --White-Color:#fff;
+    --Gray-Color: rgba(202, 200, 200, 0.721);
+    --Border:1.2rem solid rgba(255,255,255,.3);
+
     /* simpel color */
-   
     --Glass:rgba(0, 0, 0, 0.404)
-    --shadow:0 1px 5px rgba(104,104,104,0.8)
+    --Shadow:0 1px 5px rgba(104,104,104,0.8)
+
      /* Extra  */
-    --main-font: 'Roboto Mono';
-    --extra-font:'Karla';
-    --mainTransition: all 0.6s ease-in-out;
-    --mainSpacing: 1,2rem;
-    --shadow:0 1px 5px rgba(104,104,104,0.8)
-    --lightShadow: 3px 8px 3px 1px rgba(0, 0, 0, 0.5);
-    --darkShadow: 5px 10px 8px 2px rgba(0, 0, 0, 0.5);
+    --Main-Font: 'Roboto Mono';
+    --Extra-Font:'Karla';
+    --MainTransition: all 0.6s ease-in-out;
+    --MainSpacing: 1,2rem;
+    --Shadow:0 1px 5px rgba(104,104,104,0.8)
+    --LightShadow: 3px 8px 3px 1px rgba(0, 0, 0, 0.5);
+    --DarkShadow: 5px 10px 8px 2px rgba(0, 0, 0, 0.5);
 
     /* ----- Font Weight ----- */
     --fw-medium: 500;
@@ -84,21 +29,40 @@ ul {
     --fw-bold: 700;
     --fw-bolder: 800;
 
+    /* --- Typography ----- */
+    --font-family: 'Poppins', sans-serif;
+    --font-family-narrow: 'Archivo Narrow', sans-serif;
+    --font-family-alt: 'Playfair Display', serif;
 
-/* --- Typography ----- */
---font-family: 'Poppins', sans-serif;
---font-family-narrow: 'Archivo Narrow', sans-serif;
---font-family-alt: 'Playfair Display', serif;
+    /* --------  Font Size  -------*/
+    --fs-largest: 2.25rem;
+    --fs-h1: 1.5rem;
+    --fs-h2: 1.25rem;
+    --fs-h3: 1rem;
+    --fs-normal: 0.938rem;
+    --fs-small: 0.813rem;
+    --fs-smaller: 0.75rem;
+}
 
-/* --------  Font Size  -------*/
---fs-largest: 2.25rem;
---fs-h1: 1.5rem;
---fs-h2: 1.25rem;
---fs-h3: 1rem;
---fs-normal: 0.938rem;
---fs-small: 0.813rem;
---fs-smaller: 0.75rem;
+*{
+    @import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;400&display=swap");
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: "Karla", "Segoe UI", "Roboto",'Roboto Mono', monospace,
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+    scroll-behavior: smooth;
+}
+html {
+    /* background:linear-gradient(90deg, #000000, rgba(255, 0, 0, 0));  */
+    background:var(--Black-Color)
+}
 
+body {
+    min-height: 100vh;
+    font-family: 'Roboto Mono', monospace;
 }
 `;
 

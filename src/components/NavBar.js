@@ -5,7 +5,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 
 const Nav = styled.div`
-    padding: 0 2rem;
+    padding:1rem 4rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,7 +25,7 @@ const Link = styled.a`
     font-size: 1.3rem;
     font-weight:bold;
     &:hover {
-        color: var(--main-color);
+        color: var(--Main-Color);
         letter-spacing: 0.2rem;
         transition: 0.3s;
         
@@ -35,8 +35,8 @@ const Link = styled.a`
 
 const Logo = styled.a`
     padding: 1rem;
-    color: white;
-    text-decoration:uppercase;
+    color: var(--White-Color);
+    text-decoration: uppercase;
     font-weight: 800;
     font-size: 1.5rem;
     span {

@@ -9,14 +9,14 @@ import image4 from "../assets/pictures/kidsbookshop.png";
 import image5 from "../assets/pictures/movie.png";
 
 const ContainerProject = styled.div`
+    padding: 1rem 4rem;
     padding-top: 3rem;
     min-height: 100vh;
-    background: linear-gradient(90deg, #000000, #3f3e3f);
 `;
-const Paragraph = styled.div`
+const Paragraph = styled.p`
     font-size: 1rem;
     margin-top: 0.2rem;
-    color: #ffffff;
+    color: var(--White-Color);
 `;
 
 const Button = styled.button`
@@ -24,7 +24,7 @@ const Button = styled.button`
     text-transform: bold;
     margin: 1.2rem;
     padding: 0.5rem 1rem;
-    background-color: var(--main-color);
+    background-color: var(--Main-Color);
     color: black;
     font-size: 0.9rem;
     cursor: pointer;
@@ -34,7 +34,7 @@ const Button = styled.button`
     transition: 0.3s;
     &:hover {
         letter-spacing: 0.2rem;
-        color: black;
+        color: var(--Black-Color);
         transition: 0.3s;
     }
 `;
@@ -47,15 +47,16 @@ const ProjectWrapper = styled.div`
 
 const ProjectBox = styled.div`
     margin: 1.2rem;
-    background: #000000;
+    background: var(--Black-Color);
     text-align: center;
-    border: 3px solid var(--main-color);
-    border-radius: 20px;
-    color: white;
+    border: 3px solid var(--Main-Color);
+    border-radius: 2rem;
+    color: var--White-Color();
     img {
-        
-        padding: 2rem;
-        border-radius: 3rem;
+        width: 100%;
+        height: auto;
+        border-radius:2rem;
+        padding: 1.2rem;
     }
 `;
 

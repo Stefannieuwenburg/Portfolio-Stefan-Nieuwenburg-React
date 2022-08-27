@@ -4,27 +4,28 @@ import styled from "styled-components";
 
 const ContainerTechnologies = styled.div`
     height: 100vh;
+    padding: 1rem 4rem;
 `;
-const SectionHeader = styled.div`
+const SectionHeader = styled.p`
     position: relative;
     margin-bottom:2rem;
     margin-left: 3rem;
     max-width: 700px;
     font-size: 25px;
 `;
-const MainParagraph = styled.h1`
+const MainParagraph = styled.p`
     font-size: 1.8rem;
     padding-top: 6rem;
-    color: var(--main-color);
+    color: var(--Main-Color);
     &:hover {
         letter-spacing: 0.2rem;
         transition: 0.6s;
     }
 `;
-const Paragraph = styled.div`
+const Paragraph = styled.p`
     font-size: 1.5rem;
     margin-top: 1.2rem;
-    color: #ffffff;
+    color: var(--White-Color);
 `;
 const WrapperDescription = styled.div`
     display: flex;
@@ -33,23 +34,22 @@ const WrapperDescription = styled.div`
     justify-content: center;
     margin-left: 2rem;
     font-size: 20px;
-    color: var(--main-color);
+    color: var(--Main-Color);
     li {
-        color: #ffffff;
+        color: var(--White-Color);
     }
 `;
 
 
 
-const ParagraphStyled = styled.div`
+const ParagraphStyled = styled.p`
     font-size: 1.8rem;
     padding-top: 1rem;
-    color: var(--main-color);
+    color: var(--Main-Color);
     &:hover {
         letter-spacing: 0.2rem;
         transition: 0.6s;
     }
-    
 `;
 
 export default function Technologies() {
