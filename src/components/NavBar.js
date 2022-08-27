@@ -102,10 +102,10 @@ const Navbar = () => {
                     <Link href="#Home" onClick={() => setIsOpen(false)}>
                         Home
                     </Link>
-                    <Link href="#Technologies" onClick={() => setIsOpen(false)}>
+                    <Link href="#Projects" onClick={() => setIsOpen(false)}>
                         Technologies
                     </Link>
-                    <Link href="#Projects" onClick={() => setIsOpen(false)}>
+                    <Link href="#Technologies" onClick={() => setIsOpen(false)}>
                         Projects
                     </Link>
                 </Menu>
