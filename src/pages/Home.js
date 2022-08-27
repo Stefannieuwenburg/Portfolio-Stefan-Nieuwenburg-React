@@ -3,7 +3,6 @@ import styled from "styled-components";
 
 const ContainerHome = styled.div`
     height: 100vh;
-    padding: 4rem;
     display: flex;
     flex-direction: column;
     align-content: center;
