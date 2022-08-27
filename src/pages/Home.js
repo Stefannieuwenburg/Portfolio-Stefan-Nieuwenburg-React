@@ -2,7 +2,9 @@ import React, { Fragment } from "react";
 import styled from "styled-components";
 
 const ContainerHome = styled.div`
-    height: 95vh;
+    height: 100vh;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     display: flex;
     flex-direction: column;
     align-content: center;

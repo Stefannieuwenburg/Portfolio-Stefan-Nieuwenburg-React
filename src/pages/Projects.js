@@ -9,7 +9,8 @@ import image4 from "../assets/pictures/kidsbookshop.png";
 import image5 from "../assets/pictures/movie.png";
 
 const ContainerProject = styled.div`
-    padding: 4rem;
+    margin-top:8rem;
+    margin-bottom:1rem;
     min-height: 95vh;
 `;
 const Paragraph = styled.p`
