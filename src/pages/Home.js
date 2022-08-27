@@ -14,6 +14,7 @@ const ContainerHome = styled.div`
 const Button = styled.button`
     font-family: "Roboto", sans-serif;
     text-transform: bold;
+    margin-bottom:5rem;
     margin: 2.3rem;
     padding: 0.5rem 1rem;
     background-color: var(--Main-Color);

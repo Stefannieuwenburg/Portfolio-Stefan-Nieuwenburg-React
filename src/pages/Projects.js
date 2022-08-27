@@ -9,9 +9,9 @@ import image4 from "../assets/pictures/kidsbookshop.png";
 import image5 from "../assets/pictures/movie.png";
 
 const ContainerProject = styled.div`
-    margin-top:8rem;
-    margin-bottom:1rem;
-    min-height: 95vh;
+    margin-top:20rem;
+    margin-bottom:0.1rem;
+    min-height: 100vh;
 `;
 const Paragraph = styled.p`
     font-size: 1rem;
@@ -43,7 +43,7 @@ const ProjectWrapper = styled.div`
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    margin-top: 1.2rem;
+    
 `;
 
 const ProjectBox = styled.div`
