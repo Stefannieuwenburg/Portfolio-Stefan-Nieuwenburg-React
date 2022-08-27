@@ -10,7 +10,7 @@ import image5 from "../assets/pictures/movie.png";
 
 const ContainerProject = styled.div`
     padding: 4rem;
-    min-height: 100vh;
+    min-height: 95vh;
 `;
 const Paragraph = styled.p`
     font-size: 1rem;
@@ -42,6 +42,7 @@ const ProjectWrapper = styled.div`
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-top: 1.2rem;
 `;
 
 const ProjectBox = styled.div`

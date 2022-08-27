@@ -5,6 +5,7 @@ import styled from "styled-components";
 const ContainerTechnologies = styled.div`
     height: 100vh;
     padding: 4rem;
+    margin-top: 1.2rem;
 `;
 const WrapperTechnologies = styled.div`
     display: grid;
