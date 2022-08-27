@@ -58,9 +58,13 @@ const GlobalStyle = createGlobalStyle`
 html {
     background:var(--Black-Color)
 }
-
 body {
     font-family: var(--Main-font)
+}
+img {
+  width:100%;
+  height:auto;
+  object-fit: cover;
 }
 `;
 
