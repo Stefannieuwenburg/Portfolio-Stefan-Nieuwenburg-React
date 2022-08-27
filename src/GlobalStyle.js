@@ -15,8 +15,8 @@ const GlobalStyle = createGlobalStyle`
     --Shadow:0 1px 5px rgba(104,104,104,0.8)
 
      /* Extra  */
-    --Main-Font: 'Roboto Mono';
-    --Extra-Font:'Karla';
+    --Main-font: 'Roboto Mono',monospace,sans-serif;
+    --Extra-font:'Karla';
     --MainTransition: all 0.6s ease-in-out;
     --MainSpacing: 1,2rem;
     --Shadow:0 1px 5px rgba(104,104,104,0.8)
@@ -56,13 +56,11 @@ const GlobalStyle = createGlobalStyle`
     scroll-behavior: smooth;
 }
 html {
-    /* background:linear-gradient(90deg, #000000, rgba(255, 0, 0, 0));  */
     background:var(--Black-Color)
 }
 
 body {
-    min-height: 100vh;
-    font-family: 'Roboto Mono', monospace;
+    font-family: var(--Main-font)
 }
 `;
 
