@@ -33,7 +33,6 @@ const Button = styled.button`
     border-radius: 10px;
     transition: 0.3s;
     &:hover {
-        letter-spacing: 0.2rem;
         color: var(--Black-Color);
         transition: 0.3s;
     }
