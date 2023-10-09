@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const ContainerProject = styled.div`
-  margin-top: 20rem;
-  margin-bottom: 0.1rem;
   min-height: 100vh;
+  padding: 5rem;
+  
 `;
 export const Paragraph = styled.p`
   font-size: 1rem;

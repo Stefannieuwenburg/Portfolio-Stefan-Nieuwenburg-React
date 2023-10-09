@@ -18,14 +18,12 @@ export default function Technologies() {
             <ContainerTechnologies id="Technologies">
                 <SectionHeader>
                     <MainParagraph>Technologies</MainParagraph>
-
                     <Paragraph>
                         I have worked with a range a technologies in the web
                         development world. <br />
                         From Front-End to Back-end plus Design
                     </Paragraph>
                 </SectionHeader>
-
                 <WrapperTechnologies>
                     <BoxTechnologies>
                         <FaReact style={{ color: "blue", fontSize: 50 }} />

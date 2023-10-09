@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 export const ContainerTechnologies = styled.div`
   height: 100vh;
-  padding: 4rem;
-  margin-top: 1.2rem;
+  padding: 5rem;
 `;
+
 export const WrapperTechnologies = styled.div`
   display: grid;
   grid-gap: 20px;
