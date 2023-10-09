@@ -33,32 +33,30 @@ export default function Technologies() {
                             Front-End Experience with:
                         </ParagraphStyled>
                         <li>Html5</li>
-                        <li>Css</li>
-                        <li>Scss</li>
+                        <li>Styled-components</li>
+                        <li>Sass</li>
                         <li>Bootstrap</li>
-                        <li>Redux</li>
+                        <li>TailWind</li>
                         <li>React.jsx</li>
                         <li>Github</li>
-                        <li>Node</li>
-                        <li>Npm</li>
-                        <li>API</li>
-                        <li>Scrum</li>
-                        <li>Jest</li>
+                        <li>Node.js and Express</li>
+                        <li>Npm packages</li>
+                        <li>Rest API</li>
+                        <li>Agile scrum method</li>
+                        <li>Testen met Jest</li>
                     </BoxTechnologies>
                     <BoxTechnologies>
                         <FaDatabase style={{ color: "green", fontSize: 50 }} />
                         <ParagraphStyled>
                             Back-End Experience with:
                         </ParagraphStyled>
-                        <li>Sqlite</li>
-                        <li>SQL Database</li>
+                        <li>Oracle SQL</li>
+                        <li>Oracle Database</li>
                         <li>ORM</li>
                         <li>Django</li>
                         <li>Flask</li>
                         <li>Python</li>
-                        <li>VPS</li>
-                        <li>APT</li>
-                        <li>WSGI and Gunicorn</li>
+                        <li>PostgreSQL</li>
                     </BoxTechnologies>
                     <BoxTechnologies>
                         <FaTools style={{ color: "red", fontSize: 50 }} />
