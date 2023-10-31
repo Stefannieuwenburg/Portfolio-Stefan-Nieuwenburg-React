@@ -4,7 +4,7 @@ import { ContainerProject, Button,Paragraph,ProjectBox,ProjectWrapper  }  from "
 import image0 from "../assets/pictures/fitness.png";
 import image1 from "../assets/pictures/coffee.png";
 import image2 from "../assets/pictures/TeamProject.png";
-import image3 from "../assets/pictures/blog.png";
+import image3 from "../assets/pictures/installNode.png";
 import image4 from "../assets/pictures/kidsbookshop.png";
 import image5 from "../assets/pictures/movie.png";
 
@@ -33,7 +33,7 @@ export default function Projects() {
         window.open("https://github.com/Stefannieuwenburg/my-project-styled-website");
     };
     const VieuwCodeProj3 = () => {
-        window.open("https://github.com/Stefannieuwenburg/React-blog-site");
+        window.open("https://github.com/Stefannieuwenburg/node-backend-expres-react-front-end");
     };
     const VieuwCodeProj4 = () => {
         window.open("https://github.com/Stefannieuwenburg/React-kids-books-shop");
@@ -74,8 +74,8 @@ export default function Projects() {
 
                     <ProjectBox>
                         <img src={image3} alt="i" />
-                        <Paragraph>React including context api</Paragraph>
-                        <Paragraph>blog site</Paragraph>
+                        <Paragraph>React tailwind</Paragraph>
+                        <Paragraph>Node Server express</Paragraph>
                         <Button onClick={VieuwCodeProj3}>vieuw code</Button>
                     </ProjectBox>
 
