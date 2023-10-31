@@ -39,7 +39,7 @@ export default function Projects() {
         window.open("https://github.com/Stefannieuwenburg/React-kids-books-shop");
     };
     const VieuwCodeProj5= () => {
-        window.open("https://github.com/Stefannieuwenburg/vite-react-movie-database");
+        window.open("https://github.com/Stefannieuwenburg/my-project-filmzoeker");
     };
 
     
