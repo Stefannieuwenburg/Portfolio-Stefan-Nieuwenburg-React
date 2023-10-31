@@ -1,3 +1,15 @@
+# portfolio from Stefan Nieuwenburg
+
+ connect me at Email: nieuwenburg.stefan@gmail.com
+
+# technologies
+
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
+    "react-scripts": "5.0.1",
+    "styled-components": "^5.3.5",
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

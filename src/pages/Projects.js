@@ -50,8 +50,8 @@ export default function Projects() {
                 <ProjectWrapper>
                     <ProjectBox>
                         <img src={image0} alt="i" />
-                        <Paragraph>Typscript</Paragraph>
-                        <Paragraph>tailwind Aplication</Paragraph>
+                        <Paragraph>React Typscript</Paragraph>
+                        <Paragraph>tailwind Application</Paragraph>
                         <Button onClick={ViewliveProj0}>View live</Button>
                         <Button onClick={VieuwCodeProj0}>vieuw code</Button>
                     </ProjectBox>
@@ -74,21 +74,21 @@ export default function Projects() {
 
                     <ProjectBox>
                         <img src={image3} alt="i" />
-                        <Paragraph>React Node Server</Paragraph>
+                        <Paragraph>React including context api</Paragraph>
                         <Paragraph>blog site</Paragraph>
                         <Button onClick={VieuwCodeProj3}>vieuw code</Button>
                     </ProjectBox>
 
                     <ProjectBox>
                         <img src={image4} alt="i" />
-                        <Paragraph>React met DB server</Paragraph>
+                        <Paragraph>React including Data Array</Paragraph>
                         <Paragraph>book shop</Paragraph>
                         <Button onClick={VieuwCodeProj4}>vieuw code</Button>
                     </ProjectBox>
 
                     <ProjectBox>
                         <img src={image5} alt="i" />
-                        <Paragraph>API</Paragraph>
+                        <Paragraph>HTML/CSS</Paragraph>
                         <Paragraph>movie site</Paragraph>
                         <Button onClick={VieuwCodeProj5}>vieuw code</Button>
                     </ProjectBox>

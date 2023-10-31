@@ -19,9 +19,11 @@ export default function Technologies() {
                 <SectionHeader>
                     <MainParagraph>Technologies</MainParagraph>
                     <Paragraph>
-                        I have worked with a range a technologies in the web
-                        development world. <br />
-                        From Front-End to Back-end plus Design
+                    I'am enjoy working on developing diverse, digital products in diverse environments.<br />
+                    From setting up a project to maintaining the server.<br />
+                    I am the specialist and advise our customers on technical front-end and back-end issues.<br />
+                    I also like to work hands-on in a Scrum team and write code myself.<br/> Because of my knowledge and experience I am not afraid to take ownership and I am able to quickly add value to the team.<br/>
+                    I like to share my knowledge and experience with other Developers from the team.
                     </Paragraph>
                 </SectionHeader>
                 <WrapperTechnologies>
