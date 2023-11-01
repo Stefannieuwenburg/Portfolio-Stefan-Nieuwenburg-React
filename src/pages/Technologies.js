@@ -28,9 +28,9 @@ export default function Technologies() {
                 </SectionHeader>
                 <WrapperTechnologies>
                     <BoxTechnologies>
-                        <FaReact style={{ color: "blue", fontSize: 50 }} />
+                        <FaReact style={{ color: "blue", fontSize: 50, marginTop:20}} />
                         <ParagraphStyled>
-                            Front-End Experience with:
+                            Front-End Experience:
                         </ParagraphStyled>
                         <li>Html5</li>
                         <li>Styled-components</li>
@@ -46,9 +46,9 @@ export default function Technologies() {
                         <li>Testen met Jest</li>
                     </BoxTechnologies>
                     <BoxTechnologies>
-                        <FaDatabase style={{ color: "green", fontSize: 50 }} />
+                        <FaDatabase style={{ color: "green", fontSize: 50, marginTop:20 }} />
                         <ParagraphStyled>
-                            Back-End Experience with:
+                            Back-End Experience:
                         </ParagraphStyled>
                         <li>Oracle SQL</li>
                         <li>Oracle Database</li>
@@ -59,9 +59,9 @@ export default function Technologies() {
                         <li>PostgreSQL</li>
                     </BoxTechnologies>
                     <BoxTechnologies>
-                        <FaTools style={{ color: "red", fontSize: 50 }} />
+                        <FaTools style={{ color: "red", fontSize: 50, marginTop:20,}} />
                         <ParagraphStyled>
-                            Tools Experience with:
+                            Tools Experience:
                         </ParagraphStyled>
                         <li>Github</li>
                         <li>Figma</li>

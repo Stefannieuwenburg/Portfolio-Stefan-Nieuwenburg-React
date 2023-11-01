@@ -23,10 +23,11 @@ export const Button = styled.button`
   border: none;
   outline: none;
   border-radius: 10px;
-  transition: 0.3s;
+  transition: 0.6s;
   &:hover {
+    letter-spacing: 0.2rem;
     color: var(--Black-Color);
-    transition: 0.3s;
+    transition: 0.6s;
   }
 `;
 

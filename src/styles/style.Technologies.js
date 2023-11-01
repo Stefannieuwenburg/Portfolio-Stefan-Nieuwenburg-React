@@ -15,7 +15,7 @@ export const BoxTechnologies = styled.div`
   display: grid;
   justify-items: center;
   align-items: center;
-  margin-top: 2rem;
+  margin-top: 4rem;
   background: var(--Black-Color);
   border: 3px solid var(--Main-Color);
   border-radius: 2rem;
@@ -41,6 +41,12 @@ export const Paragraph = styled.p`
   font-size: 1.5rem;
   margin-top: 1.2rem;
   color: var(--White-Color);
+  transition:0.6s;
+  &:hover {
+    letter-spacing: 0.2rem;
+    transition: 0.6s;
+    
+  }
 `;
 
 export const ParagraphStyled = styled.p`

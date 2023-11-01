@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const ContainerHome = styled.div`
   height: 100vh;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
   display: flex;
   flex-direction: column;
   align-content: center;
