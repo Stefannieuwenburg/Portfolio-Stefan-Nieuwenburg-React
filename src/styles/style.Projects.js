@@ -33,14 +33,14 @@ export const Button = styled.button`
 
 export const ProjectWrapper = styled.div`
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 10px;
   grid-template-columns: repeat(auto-fit, minmax(550px,1fr));
   justify-content: center;
   align-items: center;
 `;
 
 export const ProjectBox = styled.div`
-  margin: 2.3rem;
+  margin: 3.2rem;
   background: var(--Black-Color);
   text-align: center;
   border: 3px solid var(--Main-Color);
