@@ -40,6 +40,7 @@ export const ProjectWrapper = styled.div`
 `;
 
 export const ProjectBox = styled.div`
+  margin: 2.3rem;
   background: var(--Black-Color);
   text-align: center;
   border: 3px solid var(--Main-Color);
