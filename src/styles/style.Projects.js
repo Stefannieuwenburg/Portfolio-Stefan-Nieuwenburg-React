@@ -34,7 +34,7 @@ export const Button = styled.button`
 export const ProjectWrapper = styled.div`
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(550px,1fr));
 `;
 
 export const ProjectBox = styled.div`
