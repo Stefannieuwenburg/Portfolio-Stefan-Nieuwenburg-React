@@ -35,6 +35,8 @@ export const ProjectWrapper = styled.div`
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(550px,1fr));
+  justify-content: center;
+  align-items: center;
 `;
 
 export const ProjectBox = styled.div`
