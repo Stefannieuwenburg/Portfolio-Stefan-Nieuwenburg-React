@@ -67,7 +67,10 @@ export default function Technologies() {
                         <li>Figma</li>
                         <li>Visual Studio code</li>
                         <li>Slack</li>
-                        <li>POSTman</li>
+                   <li>Wem low-code</li>
+             <li>Thinkwise low-code</li>
+                 <li>Usoft low-code</li>                                                         
+                     <li>Postman</li>    
                     </BoxTechnologies>
                 </WrapperTechnologies>
             </ContainerTechnologies>
